@@ -4,59 +4,142 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 /* font families */
 /* font-family: "Lora", serif;
 font-family: "Montserrat", serif; */
 
 #special-offer{
     background-color: #872D43;
-    font-family: "Montserrat", serif;
+    font-family: "Lora", serif;
     color: #ffffff;
-    padding: 50px 100px; 
+    /* padding: 50px 80px;  */
 }
 .spe-offer{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-   justify-content: space-around;
+    justify-content: space-around;
+    /* padding: 20px; */
     align-items: center;
     place-content: center;
 }
 .spe-offer div.one-div{
-    width: 48%;
+    width:100%;
+    padding: 30px 20px ;
+    border-right: 3px solid #F4D6E2 ;
    }
    .spe-offer div.one-div img{
-     width: 60%;
+     width: 82%;
+     padding-left: 40px;
    }
 .spe-offer div.two-div{
- width: 57%;
+ width: 100%;
+display: block;
+ justify-content: center;
+ place-content: center;
+ text-align: center;
+ padding: 100px;
+
+border-top: 3px solid #F4D6E2 ;
+border-bottom: 3px solid #F4D6E2 ;
+
+
 }
 .spe-offer div.two-div h1{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
-    text-align: start;
-    letter-spacing: -1.44px;
-    line-height: 80px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.7px;
+    line-height: 100px;
  
 }
 .spe-offer div.two-div h6{
     font-size: 16px;
-    align-items: center;
+    margin-top: 30px;
     font-weight: 300;
 }
 .spe-offer div.subscribe-button {
     margin-top: 30px;
-    align-items: center;
+   display: flex;
+   justify-content: center;
 }
 .spe-offer div.subscribe-button a{
-   text-decoration: none;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
     font-size: 16px;
     background-color: #F4D6E2;
     color: #872D43;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     padding: 10px 28px 10px 28px ;
     border-radius: 25px;
-    margin-top: 30px;
+    width: 220px;
     
+}
+.spe-offer div.subscribe-button a:hover{
+    background-color: transparent;
+    color: #F4D6E2;
+    border: 2px solid #F4D6E2;
+}
+footer{
+    background: #872D43;
+    color: #ffffff;
+    padding: 90px 80px;
+    margin-top: 20px;
+    font-family: "Montserrat", serif;
+}
+.footer-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.footer-inner .first-div {
+    text-align: start;
+}
+.footer-inner .first-div img {
+margin-bottom: 15px;
+}
+.footer-inner .first-div p {
+  font-size: 15px
+    }
+.footer-inner .first-divin{
+    margin-top: 30px;
+}
+.footer-inner .first-divin h2{
+margin-bottom: 10px;
+ font-size: 20px;
+ font-weight: 700;
+}
+.footer-inner .second-div h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #ffffff;
+    /* border-radius: 5px; */
+  
+}
+.footer-inner .second-div .link-1 ul{
+    list-style-type: none;
+
+}
+.footer-inner .second-div .link-1 ul li{
+    text-align: start;
+    margin-top: 15px;
+ 
+
+}
+.footer-inner .second-div .link-1 ul li a{
+   font-size: 16px;
+   text-decoration: none;
+   color: #ffffff;
+ 
+
 }
