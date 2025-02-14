@@ -58,5 +58,29 @@
   padding: 20px 0;
 }
 .bottom-nav p {
-  padding: 20px;
+  padding: 10px;
+}
+.hambuger {
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .hambuger {
+    display: flex;
+  }
+  .search-input {
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+  .bottom-nav {
+    display: none;
+  }
+  .nav-link {
+    display: none;
+  }
+  .top-nav {
+    font-size: 10px;
+  }
 }
