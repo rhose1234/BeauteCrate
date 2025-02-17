@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compactible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In Here - Curated Beauty for Every You!</title>
-    <link rel="shortcut icon" type="Images" href="Images/logo.svg" />
-    <link rel="stylesheet" href="/Css/signin.css">
+    <link rel="shortcut icon" type="Images" href="Images/favicon.svg" />
+    <link rel="stylesheet" href="Css/signin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
@@ -17,34 +17,45 @@
 
 <form action="#">
 <div class="auths">
-<a class="auth-btn"><img src="/Images/Google-icon.svg" alt="Google-icon"><span>Sign in with Google</span></a>
-<a class="auth-btn"><img src="/Images/facebook-icon.svg" alt="Google-icon"> <span>Sign in with Facebook</span></a>
-<a class="auth-btn"><img src="/Images/apple-auth.svg" alt="Google-icon"> <span>Sign in with Apple</span></a>
+<a class="auth-btn"><img src="Images/Google-icon.svg" alt="Google-icon"><span>Sign in with Google</span></a>
+<a class="auth-btn"><img src="Images/facebook-icon.svg" alt="Google-icon"> <span>Sign in with Facebook</span></a>
+<a class="auth-btn"><img src="Images/apple-auth.svg" alt="Google-icon"> <span>Sign in with Apple</span></a>
 </div>
 
 <div class="input-fields">
 
 <div class="fields">
 <label for="Email">Email*</label>
-    <input type="text" placeholder="Enter your email">
+    <input type="text" id="email" placeholder="Enter your email">
 </div>
 
 <div class="fields">
     <label for="password-field">Password*</label>
-        <input type="password" placeholder="Enter your Password"> <img src="/Images/eye.svg" alt="">
+        <input type="password" id="password" placeholder="Enter your Password"> <img src="Images/eye.svg" alt="">
     </div>
 
-    <div class="fields">
-        <p class="error message"></p>
+    <div class="error">
+        <p class="error message"  id="error-Msg"></p>
+    </div>
+
+    <div class="signin-btn">
+        <a class="sign-in">Sign in</a>
+
+        <h6>New to BeautéCrate? <a href="Signup.html">Create account</a> </h6>
     </div>
 
 </div>
+
+
 
 
 
     </form>
+    <a class="trouble" href="forgotPassword.html">Trouble Signing in?</a>
 </div>
+
+
     
-    
+    <script src="Js/signin.js"></script>
 </body>
 </html>

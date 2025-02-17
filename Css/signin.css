@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* Signin-form */
@@ -25,7 +26,7 @@ body {
     font-size: 30px;
 }
 form .auth-btn{
-    padding: 10px 120px;
+    padding: 10px 130px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -63,15 +64,58 @@ input{
     width: 100%;
     height: 40px;
     margin-top: 8px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
      border:  2px solid #667085 ;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    
 }
 input::placeholder{
     color: #667085;
     font-size: 14px;
 }
+.signin-btn .sign-in{
+    background-color: #98A2B3;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.signin-btn .sign-in:hover{
+    background-color: #872D43;
+    color: #ffffff;
+}
+.signin-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+}
+.signin-btn h6{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.signin-btn h6 a{
+    color: #872D43;
+}
 /* font families */
 /* font-family: "Lora", serif;
 font-family: "Montserrat", serif; */
+.trouble{
+    display: flex;
+    justify-content: center;
+    color: #872D43;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
