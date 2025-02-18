@@ -15,7 +15,7 @@ html{
   align-items: center;
 }
 
-.container {
+.contain{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -83,7 +83,7 @@ html{
 }
 
 
-.image{
+.img{
   background-color: rgb(246, 244, 244);
   padding: 30px;
   border-radius: 50%;
