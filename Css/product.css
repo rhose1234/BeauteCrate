@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+}
+
+
+#products {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.favorite{
+  display: flex;
+  align-self: flex-end;
+  padding: 2px;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+.image{
+  background-color: rgb(246, 244, 244);
+  padding: 30px;
+  border-radius: 50%;
+  
+}
+
+.name{
+  margin-top: 15px;
+  padding: 5px;
+}
+
+/*.size{
+
+}
+*/
+
+h4{
+  padding-top: 5px;
+}
+
+.box button{
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 25px;
+  margin-top: 5px;
+ color: white;
+  background-color: rgb(128, 1, 37);
+  font-size: 15px;
+  flex-wrap: wrap;
+  }
+
+  .box button:hover{
+    color: rgb(128, 1, 37);
+    background-color: rgb(246, 244, 244) ;
+  }
+
+
+  /***pagination section*/
+  #pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    border: solid 1px rgb(207, 207, 207);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+
+
+  .pagination-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .previous button{
+    justify-content: center;
+    padding: 10px;
+    padding-left: 13px;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    border: solid 1px rgb(207, 207, 207);
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .previous button:hover{
+    background-color: rgb(246, 244, 244) ;
+    border: solid 1px rgb(207, 207, 207);
+    cursor: pointer;
+  }
+
+  .previous img{
+    transform: rotate(180deg);
+  }
+
+  .pagination{
+    display: flex;
+  }
+
+  .pagination a button{
+    padding: 11px;
+    padding-left: 13px;
+    padding-right: 13px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    border: solid 1px rgb(207, 207, 207);
+    background-color: white;
+  }
+  
+  .pagination a button:hover{
+    background-color: rgb(246, 244, 244) ;
+    border: solid 1px rgb(207, 207, 207);
+    cursor: pointer;
+    
+  }
+
+  div a button.active{
+    background-color: rgb(246, 244, 244);
+    border: solid 1px rgb(207, 207, 207);
+    cursor: pointer;
+  }
+
+  .next button{
+    padding: 10px;
+    padding-right: 13px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    border: solid 1px rgb(207, 207, 207);
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .next button:hover{
+    background-color: rgb(246, 244, 244) ;
+    border: solid 1px rgb(207, 207, 207);
+    cursor: pointer;
+  }
+
+
