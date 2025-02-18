@@ -11,15 +11,40 @@ html{
 
 #products {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box{
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  padding: 20px 0;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
-.container {
+.favorite{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
