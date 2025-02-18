@@ -250,6 +250,7 @@ footer .copyright p, a{
     color: #ffffff;
     font-size: 13px;
 }
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -515,6 +516,10 @@ footer .copyright p, a{
     }
 }
 
+=======
+
+
+>>>>>>> 636c4ef35a0a3897ac6d34fa89b10c767173a6ed
 @media (max-width: 768px) {
 
     .spe-offer{

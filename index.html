@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compactible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BeauteCrate - Curated Beauty for Every You!</title>
-    <link rel="shortcut icon" type="Images" href="Images/logo.svg" />
+    <link rel="shortcut icon" type="Images" href="Images/favicon.svg" />
     <link rel="stylesheet" href="Css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="Css/nav.css" />
+    <link rel="stylesheet" href="Css/feature.css">
   </head>
   <body>
     <!-- Navigation -->
@@ -19,25 +20,30 @@
         <p>Over 20% off all products for new subscribers</p>
       </div>
       <div class="middle-nav">
-        <img src="Images/Icon.svg" alt="Hambuger" class="hambuger" />
+        <img
+          src="Images/Icon.svg"
+          alt="Hambuger"
+          class="hambuger"
+          id="menu-toggle"
+        />
         <img src="Images/BeautéCrate.svg" alt="BeautéCrate Logo" />
         <div class="nav-icon">
           <input type="search" placeholder="Search" class="search-input" />
           <div class="links">
-            <a href="#">SignIn</a>
+            <a href="signin.html">SignIn</a>
             <div class="line"></div>
-            <a href="#">SignUp</a>
+            <a href="signup.html">SignUp</a>
           </div>
 
           <div class="icons">
-            <img src="Images//profile-icon.svg" alt="profile" />
-            <img src="Images/love-icon.svg" alt="love" />
-            <img src="Images/cart-icon.svg" alt="cart" />
+            <a href="signin.html"><img src="Images//profile-icon.svg" alt="profile" /></a>
+            <a href=""><img src="Images/love-icon.svg" alt="love" /></a>
+           <a href=""> <img src="Images/cart-icon.svg" alt="cart" /></a>
           </div>
         </div>
       </div>
       <div class="nav-link"></div>
-      <div class="bottom-nav">
+      <div class="bottom-nav" id="mobile-menu">
         <p>Cleansers</p>
         <p>Exfoliators</p>
         <p>Cleansers</p>
@@ -51,6 +57,114 @@
         <p>Tools & Accessories</p>
       </div>
     </nav>
+
+    <!-----Featured Products------->
+    <section>
+    <h1 class="header-feature">Featured Products</h1>
+    <div class="product-grid">
+      <div class="product">
+        <img src="Images/Product1.svg" alt="Product">
+        <h3>Good Skin Club Toner</h3>
+        <p>Dull and Uneven Skin Type</p>
+        <h4 class="price">₦12,500</h4>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/Product2.svg" alt="Product">
+        <h3>Good Skin Club Toner</h3>
+        <p>Dull and Uneven Skin Type</p>
+        <h4 class="price">₦12,500</h4>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/Product3.svg" alt="Product">
+        <h3>Good Skin Club Toner</h3>
+        <p>Dull and Uneven Skin Type</p>
+        <h4 class="price">₦12,500</h4>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <div class="product">
+        <img src="Images/Product4.svg" alt="Product">
+        <h3>Good Skin Club Toner</h3>
+        <p>Dull and Uneven Skin Type</p>
+        <h4 class="price">₦12,500</h4>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+    </section>
+     
+    <!--------Subscription Packages------>
+      <section class="subscription-packages">
+        <h2>Subscription Packages</h2>
+      
+      <div class="subscription-group">
+        <div class="subscription-grade"><p>Monthly</p></div>
+        <div class="subscription-grade2"><p>Yearly</p></div>
+      </div>
+    
+      <div class="Subscription-grid">
+            <div class="plan">
+                <h3 class="price">₦15,000/month</h3>
+                <h4>Basic</h4>
+                <p>Perfect For: Beginners in skincare or minimalists.</p>
+                <ul>
+                    <li> <img src="Images/Check-Icon.svg" alt="Icon">2 essential products (e.g. cleanser + moisturizer)</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon">Free shipping for orders over ₦30,000</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon">5% discount on add-on purchases</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"><s>Free sample product every 3 months</s></li>
+                </ul>
+                <button class="subscribe">Subscribe</button>
+            </div>
+    
+            <div class="plan">
+                <h3 class="price">₦15,000/month</span></h3>
+                <h4>Standard</h4>
+                <p>Perfect For: Skincare enthusiasts looking for variety.</p>
+                <ul>
+                    <li> <img src="Images/Check-Icon.svg" alt="Icon"> 4 products of your choice (e.g., cleanser, serum, lotion, mask).</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"> Free shipping on all orders</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"> 5% discount on add-on purchases</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"> Free surprise product every 3 months</li>
+                </ul>
+                <button class="subscribe">Subscribe</button>
+            </div>
+    
+            
+            <div class="plan3">
+                <h3 class="price">₦52,500/month</h3>
+                <h4>Premium</h4>
+                <p>Perfect For: Advanced skincare users who want the best experience.</p>
+                <ul>
+                    <li><img src="Images/check-icon2.svg" alt="Icon"> 6 premium products (full routine: cleanser, toner, serum, moisturizer, mask, SPF)</li>
+                    <li><img src="Images/check-icon2.svg" alt="Icon"> Free shipping on all orders</li>
+                    <li><img src="Images/check-icon2.svg" alt="Icon"> 5% discount on additional purchases</li>
+                    <li><img src="Images/check-icon2.svg" alt="Icon"> Exclusive access to limited-edition products</li>
+                    <li><img src="Images/check-icon2.svg" alt="Icon"> Monthly "How-To" beauty tutorials via email</li>
+                </ul>
+                <button class="subscribe">Subscribe</button>
+            </div>
+    
+            <div class="plan">
+                <h3 class="price">₦15,000/month</h3>
+                <h4>Custom</h4>
+                <p>Perfect For: Skincare enthusiasts looking for variety.</p>
+                <ul>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"> 4 products of your choice (e.g. cleanser, serum, lotion, mask)</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"> Free shipping on all orders</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"> 5% discount on add-on purchases</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon"> Free surprise product every 3 months</li>
+                </ul>
+                <button class="subscribe">Subscribe</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    </section>
+
     <!-- Happy coding -->
 
     <section class="hero">
@@ -73,7 +187,7 @@
     <section id="special-offer">
       <div class="spe-offer">
         <div class="one-div">
-          <img src="/Images/Glow (2) 1.svg" alt="" />
+          <img src="Images/Glow (2) 1.svg" alt="" />
         </div>
 
         <div class="two-div">
@@ -126,7 +240,7 @@
         <div class="products">
           <div class="image">
            <div class="discount">-12%</div>
-          <img src="/images/blue-austura.svg" alt="uncover">
+          <img src="/images/blue-austura.svg" alt="uncover-img">
           </div>
           <div class="text">
             <div>
@@ -134,8 +248,6 @@
               </h3>
             
             </div>
-            
-            
             <p class="price">₦15,000</p>
             <s class="price">#18,000</s>
           </div>
@@ -146,15 +258,15 @@
     <footer>
       <div class="footer-inner">
         <div class="first-div">
-          <img src="/Images/footer-logo.svg" width="80%" alt="" />
+          <img src="Images/footer-logo.svg" width="80%" alt="" />
           <p>Transforming Self-Care into <br />Simplicity with BeautéCrate.</p>
 
           <div class="first-divin">
             <h2>Download App</h2>
 
             <div class="div-img">
-              <img src="/Images/googleplay.svg" alt="" width="45%" />
-              <img src="/Images/appstore.svg" alt="" width="40%" />
+              <img src="Images/googleplay.svg" alt="" width="45%" />
+              <img src="Images/appstore.svg" alt="" width="40%" />
             </div>
           </div>
         </div>
@@ -166,9 +278,9 @@
               <li><a href="">Products</a></li>
               <li><a href="">About Us</a></li>
               <li><a href="">FAQ</a></li>
-              <li><a href="">Shop</a></li>
+              <li><a href="product.html">Shop</a></li>
               <li><a href="">Products</a></li>
-              <li><a href="">Your Account</a></li>
+              <li><a href="signin.html">Your Account</a></li>
               <li><a href="">Wishlist</a></li>
             </ul>
           </div>
@@ -208,7 +320,7 @@
             <h2>Contact Us</h2>
             <div class="cover1">
               <a href="#"
-                ><img src="/Images/whatsappicon.svg" alt="Whatsapp"
+                ><img src="Images/whatsappicon.svg" alt="Whatsapp"
               /></a>
 
               <div class="whatsapp-contact">
@@ -218,7 +330,7 @@
             </div>
 
             <div class="cover2">
-              <a href="#"><img src="/Images/callicon.svg" alt="Whatsapp" /></a>
+              <a href="#"><img src="Images/callicon.svg" alt="Whatsapp" /></a>
 
               <div class="whatsapp-contact">
                 <p>Call Us</p>
@@ -240,5 +352,6 @@
         </p>
       </div>
     </footer>
+    <script src="Javascript/script.js"></script>
   </body>
 </html>

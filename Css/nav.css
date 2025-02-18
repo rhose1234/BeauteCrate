@@ -74,13 +74,28 @@
   .links {
     display: none;
   }
-  .bottom-nav {
-    display: none;
-  }
   .nav-link {
     display: none;
   }
   .top-nav {
     font-size: 10px;
+  }
+  .bottom-nav {
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 26%;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    padding: 20px;
+    border-top: 1px solid #eebfd1;
+    justify-content: start;
+    padding: 10px 35px;
+  }
+
+  .bottom-nav.show {
+    display: flex;
   }
 }
