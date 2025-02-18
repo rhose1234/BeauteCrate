@@ -1,15 +1,20 @@
+nav{
+  font-family: "Montserrat", serif;
+  font-size: 15px;
+  font-weight: 500;
+}
 .top-nav {
   background-color: #eebfd1;
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
+  padding: 10px 100px;
 }
 
 .middle-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 35px 10px;
+  padding: 20px 100px;
   width: 100%;
   gap: 20px;
 }
@@ -35,7 +40,7 @@
   color: #000;
 }
 .search-input {
-  width: 350px;
+  width: 300px;
   height: 38px;
   padding: 15px;
   border-radius: 40px;
@@ -54,8 +59,8 @@
 }
 .bottom-nav {
   display: flex;
-  justify-content: center;
-  padding: 20px 0;
+  justify-content: space-evenly;
+  padding: 20px 80px;
 }
 .bottom-nav p {
   padding: 10px;
