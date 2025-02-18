@@ -15,7 +15,6 @@ font-family: "Montserrat", serif; */
     background-color: #872D43;
     font-family: "Lora", serif;
     color: #ffffff;
-    /* padding: 50px 80px;  */
 }
 .spe-offer{
     display: flex;
@@ -319,7 +318,7 @@ footer .copyright p, a{
     max-width: 500px;
 }
 .hero-image img{
-    height: 90dvh;
+    height: 100dvh;
 }
 .subscription {
   /* display: ; */
