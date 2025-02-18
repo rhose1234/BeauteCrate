@@ -251,11 +251,15 @@ footer .copyright p, a{
     font-size: 13px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+=======
+
+>>>>>>> 3bb0f5fc1b587948a4227f5e74c34fb1b351d7db
 
 .hero {
     background-image: url(/images/hero\ \(1\)\ 1.svg);
@@ -516,10 +520,14 @@ footer .copyright p, a{
     }
 }
 
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 636c4ef35a0a3897ac6d34fa89b10c767173a6ed
+=======
+
+>>>>>>> 3bb0f5fc1b587948a4227f5e74c34fb1b351d7db
 @media (max-width: 768px) {
 
     .spe-offer{
