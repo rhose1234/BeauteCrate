@@ -158,7 +158,7 @@ html{
 .contain{
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -187,7 +187,6 @@ html{
 .favorite{
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   padding-top: 20px;
   padding-bottom: 20px;
 }
