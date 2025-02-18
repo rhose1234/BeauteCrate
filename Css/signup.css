@@ -16,7 +16,7 @@ body {
     margin: 0;
     font-family: "Lora", serif;
 }
-.Signin-form{
+.Signup-form{
     padding: 35px 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 20px;
@@ -24,7 +24,7 @@ body {
    
 
 }
-.Signin-form h1{
+.Signup-form h1{
     font-weight: 700;
     font-size: 30px;
 }
@@ -96,7 +96,7 @@ input::placeholder{
     color: #F2F4F7;
     font-size: 14px;
 }
-.signin-btn .sign-in{
+.signup-btn .sign-up{
     background-color: #F2F4F7;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
     width: 100%;
@@ -110,11 +110,11 @@ input::placeholder{
     font-size: 16px;
     font-weight: 400;
 }
-.signin-btn .sign-in:hover{
+.signup-btn .sign-up:hover{
     background-color: #872D43;
     color: #ffffff;
 }
-.signin-btn{
+.signup-btn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,13 +122,13 @@ input::placeholder{
     flex-wrap: nowrap;
    
 }
-.signin-btn h6{
+.signup-btn h6{
     font-weight: 500;
     font-size: 16px;
     color: #000000;
     margin-bottom: 20px;
 }
-.signin-btn h6 a{
+.signup-btn h6 a{
     color: #872D43;
 }
 /* font families */
