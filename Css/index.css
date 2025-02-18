@@ -250,11 +250,7 @@ footer .copyright p, a{
     color: #ffffff;
     font-size: 13px;
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 .hero {
     background-image: url(/images/hero\ \(1\)\ 1.svg);
@@ -514,6 +510,7 @@ footer .copyright p, a{
         display: block;
     }
 }
+
 
 @media (max-width: 768px) {
 
