@@ -253,8 +253,8 @@ footer .copyright p, a{
 
 
 .hero {
-    background-image: url(/images/hero\ \(1\)\ 1.svg);
-    height: 90dvh;
+    background-image: url('/Images/hero.svg');
+    height: 100dvh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
