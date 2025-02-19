@@ -121,7 +121,7 @@ a{
 
   @media (max-width: 768px) {
     .hero-section {
-        min-height: 300px; /* Adjust for smaller screens */
+        min-height: 100px; /* Adjust for smaller screens */
         padding: 10px;
     }
 
