@@ -1,17 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compactible" content="IE-edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeauteCrate - Curated Beauty for Every You!</title>
-    <link rel="shortcut icon" type="Images" href="Images/logo.svg" />
-    <link rel="stylesheet" href="/Css/product.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop - Curated Beauty for Every You!</title>
+    <link rel="shortcut icon" type="Images" href="Images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="Css/product.css" />
+    <link rel="stylesheet" href="Css/nav.css" />
+    <link rel="stylesheet" href="Css/footer.css" />
+    <link rel="stylesheet" href="Css/index.css">
+  </head>
+  <body>
 
-<body>
+   <!-- Navigation -->
+   <nav>
+    <div class="top-nav">
+      <p>Welcome to BeautéCrate</p>
+      <p>Over 20% off all products for new subscribers</p>
+    </div>
+    <div class="middle-nav">
+      <img
+        src="Images/Icon.svg"
+        alt="Hambuger"
+        class="hambuger"
+        id="menu-toggle"
+      />
+      <img src="Images/BeautéCrate.svg" alt="BeautéCrate Logo" />
+      <div class="nav-icon">
+        <input type="search" placeholder="Search" class="search-input" />
+        <div class="links">
+          <a href="signin.html">SignIn</a>
+          <div class="line"></div>
+          <a href="signup.html">SignUp</a>
+        </div>
+
+        <div class="icons">
+          <a href="signin.html"><img src="Images//profile-icon.svg" alt="profile" /></a>
+          <a href=""><img src="Images/love-icon.svg" alt="love" /></a>
+         <a href=""> <img src="Images/cart-icon.svg" alt="cart" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-link"></div>
+    <div class="bottom-nav" id="mobile-menu">
+      <p>Cleansers</p>
+      <p>Exfoliators</p>
+      <p>Cleansers</p>
+      <p>Toners</p>
+      <p>Serums</p>
+      <p>Moisturizers</p>
+      <p>Sun Protection</p>
+      <p>Treatments</p>
+      <p>Masks</p>
+      <p>Body Care</p>
+      <p>Tools & Accessories</p>
+    </div>
+  </nav>
+
+  <!-- banner -->
+      <div id="banner" class="banner">
+        <h1>Products</h1>
+        <div class="drop-down">
+        <ul> 
+        <li><a href="index.html">Home </a></li>
+        <span class="less-than"><a href="index.html">&lt;</a></span>
+        <li><a href="product.html">Product</a></li>
+        </ul>
+      </div>
+      </div>
+
+      <!-- banner end -->
+      <div class="price-cart">
+      <div  class="filter-img" id="filterButton">
+        <img src="Images/filter-lines.svg" alt="image">
+        <span>filter</span>|
+        </div>
+        <span>showing 1-2 of 36 results</span> |
+      <div class="cointainer">
+        <span class="show-per-page">show</span>
+        <select class="shows"  id="pages">
+        <option value="16"></option>
+        </select>
+        <span>per page</span>
+      </div>
+      <div class="cointainer1">
+        <span>sort by</span>
+        <select name="" id="price">
+        <option class="price-bag" value="price">price</option>
+        </select>
+      </div>
+      </div>
+      <div class="link-product"  id="linkProduct">
+
+        <span><a href="">Gel Cleanser</a></span> 
+        <span><a href="">Foam Cleanser</a></span>
+        <span><a href="">Micellar Water</a></span>
+        <span><a href="">cleansing Balm</a></span>
+        <span><a href="">Oil Cleanser</a></span>
+        <span><a href="">Exfoilating Cleanser</a></span>
+      </div>
+
 <!--products page 2-->
 <section id="products">
     <div class="contain">
@@ -85,13 +176,13 @@
                 </div>
         
                   <div class="img">
-                    <img src="Images/WhatsApp Image 2025-02-11 at 17.02.11 1.svg" alt="image"width="200px" height="200px" >
+                    <img src="Images/WhatsApp Image 2025-02-11 at 17.02.11 1.svg" alt="image" width="200px" height="200px" >
                    </div>
                     <p class="name">Brand Skin Set</p>
                     <p class="size">30 & 400ml</p>
                     <h4>₦12,500</h4>
                     <a href="#" class="cart"><button>Add to Cart</button></a>
-                </div>
+            </div>
 
             <div class="box">
                 <div class="favorite">
@@ -99,7 +190,7 @@
                 </div>
 
                 <div class="img">
-                <img src="Images/image 29.svg" alt="image" width="200px" height="200px" >
+                 <img src="Images/image 29.svg" alt="image" width="200px" height="200px" >
                </div>
                 <p class="name">Biovene Hyaluronic Hydro Cleanser</p>
                 <p class="size">100ml</p>
@@ -113,8 +204,8 @@
                 </div>
 
                 <div class="img">
-                <img src="Images/image 36.svg" alt="image" width="200px" height="200px" >
-               </div>
+                 <img src="Images/image 36.svg" alt="image" width="200px" height="200px" >
+                </div>
                 <p class="name">SkinScience Gly/Sal 5-2 Exfoliating Cleanser</p>
                 <p class="size">100ml</p>
                 <h4>₦6,000</h4>
@@ -127,13 +218,14 @@
                 </div>
 
                 <div class="img">
-                <img src="Images/image 42.svg" alt="image" width="200px" height="200px" >
-               </div>
+                  <img src="Images/image 42.svg" alt="image" width="200px" height="200px" >
+                </div>
                 <p class="name">SkinScience Benzoyl Peroxide Wash</p>
                 <p class="size">100ml</p>
                 <h4>₦6,000</h4>
                 <a href="#" class="cart"><button>Add to Cart</button></a>
             </div>
+
         </div>
 
         <!---third row-->
@@ -301,9 +393,105 @@
     </section>
 
 
+    <footer>
+        <div class="footer-inner">
+          <div class="first-div">
+            <img src="Images/footer-logo.svg" width="80%" alt="" />
+            <p>Transforming Self-Care into <br />Simplicity with BeautéCrate.</p>
+  
+            <div class="first-divin">
+              <h2>Download App</h2>
+  
+              <div class="div-img">
+                <img src="Images/googleplay.svg" alt="" width="45%" />
+                <img src="Images/appstore.svg" alt="" width="40%" />
+              </div>
+            </div>
+          </div>
+  
+          <div class="second-div">
+            <h2>Quick Links</h2>
+            <div class="link-1">
+              <ul>
+                <li><a href="">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="product.html">Shop</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="signin.html">Your Account</a></li>
+                <li><a href="">Wishlist</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="third-div">
+            <h2>Categories</h2>
+            <div class="link-1">
+              <ul>
+                <li><a href="">Cleansers</a></li>
+                <li><a href="">Exfoliators</a></li>
+                <li><a href="">Toners</a></li>
+                <li><a href="">Serum</a></li>
+                <li><a href="">Moisturizers</a></li>
+                <li><a href="">Sun Protection</a></li>
+                <li><a href="">Treatment</a></li>
+                <li><a href="">Mask</a></li>
+                <li><a href="">Body Care</a></li>
+                <li><a href="">Tools & Accessories</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="fourth-div">
+            <h2>Connect With Us</h2>
+            <div class="link-1">
+              <ul>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Tiktok</a></li>
+                <li><a href="">Youtube</a></li>
+                <li><a href="">X</a></li>
+              </ul>
+            </div>
+  
+            <div class="contactus-link">
+              <h2>Contact Us</h2>
+              <div class="cover1">
+                <a href="#"
+                  ><img src="Images/whatsappicon.svg" alt="Whatsapp"
+                /></a>
+  
+                <div class="whatsapp-contact">
+                  <p>Whats App</p>
+                  <p>+1 202-918-2132</p>
+                </div>
+              </div>
+  
+              <div class="cover2">
+                <a href="#"><img src="Images/callicon.svg" alt="Whatsapp" /></a>
+  
+                <div class="whatsapp-contact">
+                  <p>Call Us</p>
+                  <p>+1 202-918-2132</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="copyright-line"></div>
+  
+        <div class="copyright">
+          <p>
+            &copy; 2025 BeautéCrate. All rights reserved ·
+            <a href="privacy-policy.html">Privacy Policy</a> ·
+            <a href="terms-of-use.html">Terms of Use</a> ·
+            <a href="cookies-preference.html">Cookies Preference</a>
+          </p>
+        </div>
+      </footer>
 
-
-
-
-</body>
-</html>
+          
+      <script src="Js/script.js"></script>  
+      </body>
+      </html>
