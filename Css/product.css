@@ -151,12 +151,12 @@
 
 .box-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 40px 80px;
 
+}
 .box{
   display: flex;
   flex-direction: column;
@@ -164,12 +164,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  padding: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-
+  padding: 20px;
 }
-
 .favorite{
   display: flex;
   align-self: flex-end;
@@ -181,8 +177,9 @@
 
 .img{
   background-color: rgb(246, 244, 244);
-  padding: 30px;
+  padding: 20px;
   border-radius: 50%;
+  /* width: 100%; */
 }
 
 .name{
