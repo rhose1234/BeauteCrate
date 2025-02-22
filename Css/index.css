@@ -97,55 +97,64 @@ border-bottom: 3px solid #F4D6E2 ;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 5%;
+    padding: 10px 110px;
 }
-
 .hero-section {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
     width: 100%;
-    gap: 20px;
+    gap: 170px;
 }
 
 /* Text Styling */
 .hero-text {
-    flex: 1;
-    max-width: 350px;
-    text-align: left;
-    margin: 0 auto;
+    /* flex: 1; */
+    /* max-width: 500px;  */
+    /* text-align: left;
+    margin: 0 auto;  */
 }
 
 .hero-text h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #252525;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #000000;
     font-family: 'lora', sherif;
-    /* max-width: 300px; */
-    word-wrap: break-word;
+    /* max-width: 400px; */
+    letter-spacing: 0.1px;
+    line-height: 65px;
+    word-spacing: 1px;
+    /* word-wrap: break-word; */
+    margin-bottom: 20px;
 }
 
 .hero-text p {
-    font-size: 1.2rem;
-    color: #363636;
+    font-size: 18px;
+    color: #000000;
     margin: 10px 0 20px;
-    font-weight: 600;
+    font-family: Montserrat;
+    
 }
 
 .bot {
     display: inline-block;
-    background-color: #a83256;
+    background-color: #872D43;
     color: white;
-    padding: 10px 44px;
+    padding: 15px 60px;
     border-radius: 25px;
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 700;
     text-transform: capitalize;
 }
 
 .bot:hover {
-    background-color: #8c2a4b;
+    background-color: #F4D6E2;
+    color: #872D43;
+    border: 1px solid #872D43;
 }
 
 /* Image Styling */
@@ -164,19 +173,22 @@ border-bottom: 3px solid #F4D6E2 ;
   text-align: center;
   padding: 50px 10%;
   background-color: #f9f9f9; /* Light background */
+  font-family: 'lora', serif;
 }
 
 .subscription h2 {
-  font-size: 2.5rem;
-  color: #4d2c3d;
-  margin-bottom: 20px;
-  font-weight: 500;
+    font-size: 30px;
+    margin: 10px 10px;
+    font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+ 
 }
 
 .subscription p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #0c0205;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .product-container {
@@ -223,15 +235,21 @@ border-bottom: 3px solid #F4D6E2 ;
 
 .price {
   font-size: 1rem;
-  color: #9c9396;
+  color: #000000;
   font-weight: bold;
 }
-
+.price2 {
+    font-size: 1rem;
+    color: #9c9396;
+    font-weight: bold;
+  }
+  
 .product-div{
   display: flex;
-  flex-wrap: wrap ;
-  justify-content: center;
-  gap: 30px;
+  flex-wrap: nowrap ;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
 }
 
 .products img {
@@ -252,6 +270,7 @@ border-bottom: 3px solid #F4D6E2 ;
 }
 .text h3{
     font-size: 1rem;
+    font-weight: 500;
 
 }
 .name-icon{
@@ -271,8 +290,217 @@ border-bottom: 3px solid #F4D6E2 ;
   border-radius: 12px 0 0;
   text-align: center;
 }
+#featured-products{
+    padding: 50px 70px;
+    font-family: "Lora", serif;
+}
+
+.header-feature {
+    font-size: 40px;
+    margin: 20px 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    
+}
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px 30px;
+}
+
+.product {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    width: auto;
+    
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.product h3{
+    color: #000000;
+}
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 0;
+    color: #000000;
+
+}
+.product p {
+    padding: 5px 0;
+
+}
+
+.add-to-cart {
+    background: #872D43;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    font-family: "Lora", serif;
+}
+
+.add-to-cart:hover {
+    background: transparent;
+    border: #872D43 1px solid;
+    color: #872D43;
+
+}
 
 
+/* Subscription Section Styles */
+
+.subscription-group {
+    display: flex;
+    justify-content: center;
+    color: #872D43;
+    margin: 30px 30px;
+    gap: 5px;
+}
+.subscription-grade {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #eebfd1;
+}
+.subscription-grade2 {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.Subscription-grid {
+    padding: 10px 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 35px;
+}
+.subscription-packages {
+    text-align: center;
+    padding: 60px 50px;
+    background-color: #f9f9f9;
+    font-family: "Lora", serif;
+ 
+    
+}
+
+/* Subscription Title */
+.subscription-packages h2 {
+    font-size: 40px;
+    margin: 20px 10px;
+}
+
+/* Subscription Layout */
+/*.plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Each Plan Styling */
+.plan {
+    background: white;
+    padding: 22px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    color: #70707B;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.plan:hover{
+    background: #F4D6E2;
+    color: #000000 !important;
+   
+}
+
+/* .plan3 {
+    background: #eebfd1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+.plan3 ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.plan3 ul li {
+    font-size: 14px;
+    display: flex;
+    padding: 5px 0;
+    align-items: flex-start;
+} */
+
+/* Plan Titles */
+.plan h3 {
+    font-size: 20px;
+    color: #872D43;
+    margin: 5px 0;
+}
+
+.plan h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Plan Description */
+.plan p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Features List */
+.plan ul {
+    list-style: none;
+    padding: 5px ;
+}
+
+.plan ul li {
+    font-size: 14px;
+    display: flex;
+    padding: 5px 0;
+    align-items: start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    text-align: start;
+    
+}
+.plan ul li img{
+    margin-right: 10px;
+}
+
+
+
+.subscribe {
+    background-color: #F4D6E2;
+    color: #872D43;
+    border: 1px solid #872D43;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.subscribe:hover {
+    background-color: #872D43;
+    border: 1px solid #4d2c3d;
+    color: #F4D6E2;
+}    
 
 
 /* Hide Image on Small Tablets & Phones (Below 768px) */
@@ -350,7 +578,76 @@ border-bottom: 3px solid #F4D6E2 ;
 
 
 @media (max-width: 768px) {
+    .hero-section{
+        padding: 20px 20px;
+      
+    }
 
+    .hero-image {
+        display: none;
+    }
+
+    .hero-section {
+        justify-content: center;
+    }
+
+    .hero-text {
+        text-align: center;
+        /* max-width: 100%; */
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+        letter-spacing: 0.1px;
+        line-height: 40px;
+        word-spacing: 2px;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        color: #000000;
+        font-weight: 500;
+    }
+    #featured-products{
+        padding: 20px 20px;
+        font-family: "Lora", serif;
+    }
+    .product-grid {
+        flex-wrap: wrap;
+    }
+    .header-feature {
+        
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .subscription-packages {
+        text-align: center;
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+    .Subscription-grid {
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+   
+    .subscription-packages h2 {
+        font-size: 25px;
+        margin: 20px 10px;
+    }
+.plan {
+    margin-top: 35px
+}
+
+.product-div{
+  
+    flex-wrap: nowrap ;
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 20px;
+  }
     .spe-offer{
         display: flex;
         flex-direction: column;
