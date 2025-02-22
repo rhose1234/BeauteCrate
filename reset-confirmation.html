@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forget Password Form - Curated Beauty for Every You!</title>
+    <link rel="shortcut icon" type="Images" href="Images/favicon.svg" />
+    <link rel="stylesheet" href="Css/forgetPassword.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body class="bos">
+    <div class="forgetPassword-form">
+      <h1>Forgot your password?</h1>
+      <p>Enter new password for ezinnejioke@gmail.com</p>
+
+      <form id="forgetPasswordForm">
+        <div class="input-fields">
+          <div class="fields">
+            <label for="password">New Password*</label>
+
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your new password"
+            />
+          </div>
+          <div class="password-requirements">
+            <p id="lengthCheck">❌ At least 8 characters</p>
+            <p id="upperLowerCheck">❌ Both uppercase & lowercase letters</p>
+            <p id="numberSymbolCheck">❌ At least one number or symbol</p>
+            <p id="matchCheck">❌ Passwords match</p>
+          </div>
+
+          <div class="fields">
+            <label for="confirmPassword">Confirm Password*</label>
+            <div class="password-container">
+              <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm password"
+              />
+              <img
+                src="Images/eye.svg"
+                alt="Toggle Password"
+                id="togglePassword"
+              />
+            </div>
+          </div>
+
+          <div class="error">
+            <p class="error-message" id="error-Msg"></p>
+          </div>
+
+          <button class="forgetPassword" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="Js/reset-condirmation.js"></script>
+  </body>
+</html>
