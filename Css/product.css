@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "Montserrat", serif;
+    /* font-family: "Montserrat", serif; */
   }
   .banner{
     width: 100%;
@@ -303,12 +303,16 @@ h4{
     border: solid 1px rgb(207, 207, 207);
     cursor: pointer;
   }
-  @media (max-width:763px) {
+  @media (max-width:768px) {
     .price-cart{
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-      
+    .box-container{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
   }
 

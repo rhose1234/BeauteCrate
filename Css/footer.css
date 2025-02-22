@@ -10,7 +10,7 @@ footer{
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 40px;
-    padding: 90px 80px;
+    padding: 80px 90px;
     
   
 }
@@ -179,9 +179,9 @@ footer .copyright p, a{
 
     .footer-inner{
         display: block;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-bottom: 40px;
-        padding: 90px 80px;
+        padding: 50px 40px;
 }
 .footer-inner .second-div, .third-div, .fourth-div{
     margin-top: 30px;
