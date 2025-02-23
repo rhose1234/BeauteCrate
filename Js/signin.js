@@ -1,43 +1,38 @@
 // Function to validate sign-in
 function validateSignin() {
-    var userEmail = document.getElementById("email");
-    var userPassword = document.getElementById("password");
+    var userEmail = document.getElementById("email").value.trim();
+    var userPassword = document.getElementById("password").value.trim();
     var errorMessage = document.getElementById("error-Msg");
-    var storedEmail = localStorage.getItem("userEmail");
-    var storedPassword = localStorage.getItem("userPassword");
 
     // Clear previous error messages
     errorMessage.innerHTML = "";
     errorMessage.style.display = "none";
 
-    if (userEmail.value === "" || userPassword.value === "") {
-        errorMessage.innerHTML = '<img src="Images/error-icon.svg" alt="Error"> Email and Password fields cannot be empty.';
-        errorMessage.style.color = "red";
-        errorMessage.style.display = "flex";
+    if (userEmail === "" || userPassword === "") {
+        showError('<img src="Images/error-icon.svg" alt="Error"> Email and Password fields cannot be empty.');
         return false;
     }
 
-    // if (userEmail.value != storedEmail || userPassword.value === "") {
-    //     errorMessage.innerHTML = '<img src="Images/error-icon.svg" alt="Error"> Email and Password fields cannot be empty.';
-    //     errorMessage.style.color = "red";
-    //     errorMessage.style.display = "flex";
-    //     return false;
-    // }
+    // Retrieve stored users
+    let users = JSON.parse(localStorage.getItem("users")) || [];
 
-    // Check if user exists in localStorage
-    if (userEmail.value === storedEmail && userPassword.value === storedPassword) {
-        window.location.href = "product.html";
-    } 
-    
-    if (userEmail.value != storedEmail && userPassword.value != storedPassword) {
-        window.location.href = "product.html";
-    } 
-    
-    else {
-        errorMessage.innerHTML = '<img src="Images/error-icon.svg" alt="Error"> Incorrect email or password.';
-        errorMessage.style.color = "red";
-        errorMessage.style.display = "flex";
+    // Find user in stored users
+    let user = users.find(user => user.email === userEmail && user.password === userPassword);
+
+    if (user) {
+        localStorage.setItem("loggedInUser", JSON.stringify(user)); // Store logged-in user details
+        window.location.href = "product.html"; // Redirect on successful login
+    } else {
+        showError('<img src="Images/error-icon.svg" alt="Error"> Incorrect email or password.');
     }
+}
+
+// Function to show error messages
+function showError(message) {
+    var errorMessage = document.getElementById("error-Msg");
+    errorMessage.innerHTML = message;
+    errorMessage.style.color = "red";
+    errorMessage.style.display = "flex";
 }
 
 // Add event listener to sign-in button
@@ -52,10 +47,6 @@ const togglePassword = document.querySelector(".fields img");
 
 if (togglePassword) {
     togglePassword.addEventListener("click", function() {
-        if (passwordField.type === "password") {
-            passwordField.type = "text";
-        } else {
-            passwordField.type = "password";
-        }
+        passwordField.type = passwordField.type === "password" ? "text" : "password";
     });
 }

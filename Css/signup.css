@@ -20,13 +20,16 @@ body {
     padding: 35px 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 20px;
-    margin-top: 140px ;
+    margin-top: 100px ;
+    width: 500px;
+  
    
 
 }
 .Signup-form h1{
     font-weight: 700;
     font-size: 30px;
+    margin-top: 20px;
 }
 form .auth-btn{
     padding: 10px 120px;
@@ -93,7 +96,7 @@ input{
     
 }
 input::placeholder{
-    color: #F2F4F7;
+    color: #667085;
     font-size: 14px;
 }
 .signup-btn .sign-up{
@@ -147,10 +150,12 @@ form .auth-btn {
     padding: 10px 0px;
 }
 .Signup-form{
-    padding: 20px 10px;
+    padding: 35px 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 20px;
-    margin-top: 100px ;
-    border:  1px xolid green;
+    margin-top: 50px ;
+    margin: 20px;
+   
+
 }
 }

@@ -365,7 +365,7 @@ border-bottom: 3px solid #F4D6E2 ;
     display: flex;
     justify-content: center;
     color: #872D43;
-    margin: 30px 30px;
+    margin: 20px 0px;
     gap: 5px;
 }
 .subscription-grade {
@@ -399,7 +399,7 @@ border-bottom: 3px solid #F4D6E2 ;
 /* Subscription Title */
 .subscription-packages h2 {
     font-size: 40px;
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 /* Subscription Layout */
@@ -620,13 +620,14 @@ border-bottom: 3px solid #F4D6E2 ;
         font-size: 25px;
         font-weight: 800;
     }
+    
     .subscription-packages {
         text-align: center;
-        padding: 10px 20px;
+        padding: 50px 20px;
         justify-content: space-between;
     }
     .Subscription-grid {
-        padding: 10px 30px;
+        padding: 0px 0px;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -635,7 +636,7 @@ border-bottom: 3px solid #F4D6E2 ;
    
     .subscription-packages h2 {
         font-size: 25px;
-        margin: 20px 10px;
+        margin: 10px 10px;
     }
 .plan {
     margin-top: 35px

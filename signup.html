@@ -7,22 +7,37 @@
     <title>Sign Up Here - Curated Beauty for Every You!</title>
     <link rel="shortcut icon" type="Images" href="Images/favicon.svg" />
     <link rel="stylesheet" href="Css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
 
-<div class="Signin-form">
+<div class="Signup-form">
+    <a href="index.html"><img src="Images/BeautéCrate.svg" alt="" width="150px"></a>
     <h1>Sign Up</h1>
 
 <form action="#">
-<div class="auths">
+<!-- <div class="auths">
 <a class="auth-btn"><img src="Images/Google-icon.svg" alt="Google-icon"><span>Sign up with Google</span></a>
 <a class="auth-btn"><img src="Images/facebook-icon.svg" alt="Google-icon"> <span>Sign up with Facebook</span></a>
 <a class="auth-btn"><img src="Images/apple-auth.svg" alt="Google-icon"> <span>Sign up with Apple</span></a>
-</div>
+</div> -->
+
+
 
 <div class="input-fields">
+
+    <div class="fields">
+        <label for="firstName">First name*</label>
+            <input type="text" id="firstName" placeholder="Enter first name" required>
+        </div>
+
+        <div class="fields">
+            <label for="lastName">Last name*</label>
+                <input type="text" id="lastName" placeholder="Enter last name" required>
+            </div>
+
 
 <div class="fields">
 <label for="Email">Email*</label>
@@ -52,7 +67,7 @@
 </div>
 
     </form>
-    <a class="trouble" href="forgotPassword.html">Trouble Signing in?</a>
+    <a class="trouble" href="/forgetPassword.html">Trouble Signing in?</a>
 </div>
 
 
