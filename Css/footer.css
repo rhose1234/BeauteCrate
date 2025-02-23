@@ -10,9 +10,7 @@ footer{
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 40px;
-    padding: 80px 90px;
-    
-  
+    padding: 80px 150px;
 }
 .footer-inner .first-div {
     text-align: start;
