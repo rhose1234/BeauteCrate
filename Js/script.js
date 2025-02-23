@@ -24,3 +24,4 @@ document.getElementById("filterbin").addEventListener("click",
 
  filterContent.style.display = (filterContent.style.display === "block") ? "none" : "block";
  });
+

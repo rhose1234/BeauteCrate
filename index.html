@@ -29,7 +29,10 @@
         />
        <a href="#"> <img src="Images/BeautéCrate.svg" alt="BeautéCrate Logo" /></a>
         <div class="nav-icon">
-          <input type="search" placeholder="Search" class="search-input" />
+          <div>
+            <input type="search" id="searchInput" placeholder="Search products..." class="search-input" />
+            <div id="searchResults"></div>            
+        </div>
           <div class="links">
             <a href="signin.html">SignIn</a>
             <div class="line"></div>
@@ -118,24 +121,12 @@
         <h2>Subscription Packages</h2>
       
       <div class="subscription-group">
-        <div class="subscription-grade"><p>Monthly</p></div>
-        <div class="subscription-grade2"><p>Yearly</p></div>
+        <!-- <div class="subscription-grade"><p>Monthly</p></div> -->
+        <div class="subscription-grade2"><p>Explore our subscription Packages</p></div>
       </div>
     
       <div class="Subscription-grid">
-            <div class="plan">
-                <h3 class="price">₦15,000/month</h3>
-                <h4>Basic</h4>
-                <p>Perfect For: Beginners in skincare or minimalists.</p>
-                <ul>
-                    <li> <img src="Images/Check-Icon.svg" alt="Icon">2 essential products (e.g. cleanser + moisturizer)</li>
-                    <li><img src="Images/Check-Icon.svg" alt="Icon">Free shipping for orders over ₦30,000</li>
-                    <li><img src="Images/Check-Icon.svg" alt="Icon">5% discount on add-on purchases</li>
-                    <li><img src="Images/Check-Icon.svg" alt="Icon">5% discount on order</li>
-                    <li><img src="Images/Check-Icon.svg" alt="Icon"><s>Free sample product every 3 months</s></li>
-                </ul>
-                <button class="subscribe">Subscribe</button>
-            </div>
+            
     
             <div class="plan">
                 <h3 class="price">₦15,000/month</span></h3>
@@ -357,6 +348,7 @@
         </p>
       </div>
     </footer>
+    <script src="Js/search.js"></script>
     <script src="Js/script.js"></script>
   </body>
 </html>
