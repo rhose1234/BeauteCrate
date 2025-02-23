@@ -1,30 +1,39 @@
-document
-  .getElementById("forgetPasswordForm")
-  .addEventListener("submit", function (e) {
-    e.preventDefault();
+document.getElementById("forgetPasswordForm").addEventListener("submit", function (e) {
+  e.preventDefault();
 
-    const emailField = document.getElementById("email");
-    const errorMsg = document.getElementById("error-Msg");
+  const emailField = document.getElementById("email");
+  const errorMsg = document.getElementById("error-Msg");
+  const email = emailField.value.trim();
 
-    // Regular expression for basic email validation
-    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  // Email validation regex
+  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
-    // Retrieve stored users from localStorage
-    let users = JSON.parse(localStorage.getItem("users")) || [];
+  // Retrieve stored users from localStorage
+  let users = JSON.parse(localStorage.getItem("users")) || [];
 
-    // Check if the email exists in stored users
-    let userExists = users.some(user => user.email === emailField.value.trim());
+  // Check if the email exists in stored users
+  let userExists = users.some(user => user.email === email);
 
-    // Check if the email is empty or invalid
-    if (!emailField.value.trim()) {
+  if (!email) {
       errorMsg.textContent = "Email is required.";
-    } else if (!emailPattern.test(emailField.value.trim())) {
+      errorMsg.style.color = "red";
+  } else if (!emailPattern.test(email)) {
       errorMsg.textContent = "Please enter a valid email address.";
-    } else if (!userExists) {
+      errorMsg.style.color = "red";
+  } else if (!userExists) {
       errorMsg.textContent = "Email not found. Please sign up.";
-    } else {
+      errorMsg.style.color = "red";
+  } else {
       errorMsg.textContent = "";
+      errorMsg.style.color = "green";
+
+      // ✅ Store email properly
+      localStorage.setItem("otpEmail", email);
+      console.log("Stored Email in localStorage:", localStorage.getItem("otpEmail")); // Debugging
+
       // Redirect to password reset confirmation page
-      window.location.href = "reset-confirmation.html";
-    }
-  });
+      setTimeout(() => {
+          window.location.href = "reset-confirmation.html";
+      }, 1000);
+  }
+});
