@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="Css/nav.css" />
+    <link rel="stylesheet" href="Css/footer.css" />
     <link rel="stylesheet" href="Css/feature.css">
   </head>
   <body>
@@ -21,12 +22,12 @@
       </div>
       <div class="middle-nav">
         <img
-          src="Images/Icon.svg"
+          src="Images/menu-01.svg"
           alt="Hambuger"
           class="hambuger"
           id="menu-toggle"
         />
-        <img src="Images/BeautéCrate.svg" alt="BeautéCrate Logo" />
+       <a href="#"> <img src="Images/BeautéCrate.svg" alt="BeautéCrate Logo" /></a>
         <div class="nav-icon">
           <input type="search" placeholder="Search" class="search-input" />
           <div class="links">
@@ -36,8 +37,9 @@
           </div>
 
           <div class="icons">
+            <!-- <a href=""><img src="Images/Search.svg" alt="search" /></a> -->
             <a href="signin.html"><img src="Images//profile-icon.svg" alt="profile" /></a>
-            <a href=""><img src="Images/love-icon.svg" alt="love" /></a>
+            <a href=""><img src="Images/love-icon.svg" alt="favorites" /></a>
            <a href=""> <img src="Images/cart-icon.svg" alt="cart" /></a>
           </div>
         </div>
@@ -63,18 +65,18 @@
           <div class="hero-text">
           <h1>Curated Beauty for Every You </h1>
           <p>Transformig Self-care into Simplicity with Beaut&#233;Crate</p>
-          <a class="bot" href="">shop now</a>
+          <a class="bot" href="product.html">shop now</a>
           </div>
 
       <div class="hero-image">
-          <img src="/images/image 12.svg" alt="smiling-woman" width="px" >
+          <img src="/images/image 12.svg" alt="smiling-woman" width="" >
       </div>
       </div>
       
   </section>
 
     <!-----Featured Products------->
-    <section>
+    <section id="featured-products">
     <h1 class="header-feature">Featured Products</h1>
     <div class="product-grid">
       <div class="product">
@@ -129,6 +131,7 @@
                     <li> <img src="Images/Check-Icon.svg" alt="Icon">2 essential products (e.g. cleanser + moisturizer)</li>
                     <li><img src="Images/Check-Icon.svg" alt="Icon">Free shipping for orders over ₦30,000</li>
                     <li><img src="Images/Check-Icon.svg" alt="Icon">5% discount on add-on purchases</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon">5% discount on order</li>
                     <li><img src="Images/Check-Icon.svg" alt="Icon"><s>Free sample product every 3 months</s></li>
                 </ul>
                 <button class="subscribe">Subscribe</button>
@@ -142,22 +145,23 @@
                     <li> <img src="Images/Check-Icon.svg" alt="Icon"> 4 products of your choice (e.g., cleanser, serum, lotion, mask).</li>
                     <li><img src="Images/Check-Icon.svg" alt="Icon"> Free shipping on all orders</li>
                     <li><img src="Images/Check-Icon.svg" alt="Icon"> 5% discount on add-on purchases</li>
+                    <li><img src="Images/Check-Icon.svg" alt="Icon">5% discount on order</li>
                     <li><img src="Images/Check-Icon.svg" alt="Icon"> Free surprise product every 3 months</li>
                 </ul>
                 <button class="subscribe">Subscribe</button>
             </div>
     
             
-            <div class="plan3">
+            <div class="plan">
                 <h3 class="price">₦52,500/month</h3>
                 <h4>Premium</h4>
                 <p>Perfect For: Advanced skincare users who want the best experience.</p>
                 <ul>
-                    <li><img src="Images/check-icon2.svg" alt="Icon"> 6 premium products (full routine: cleanser, toner, serum, moisturizer, mask, SPF)</li>
-                    <li><img src="Images/check-icon2.svg" alt="Icon"> Free shipping on all orders</li>
-                    <li><img src="Images/check-icon2.svg" alt="Icon"> 5% discount on additional purchases</li>
-                    <li><img src="Images/check-icon2.svg" alt="Icon"> Exclusive access to limited-edition products</li>
-                    <li><img src="Images/check-icon2.svg" alt="Icon"> Monthly "How-To" beauty tutorials via email</li>
+                    <li><img src="Images/check-icon.svg" alt="Icon"> 6 premium products (full routine: cleanser, toner, etc)</li>
+                    <li><img src="Images/check-icon.svg" alt="Icon"> Free shipping on all orders</li>
+                    <li><img src="Images/check-icon.svg" alt="Icon"> 5% discount on additional purchases</li>
+                    <li><img src="Images/check-icon.svg" alt="Icon"> Exclusive access to limited-edition products</li>
+                    
                 </ul>
                 <button class="subscribe">Subscribe</button>
             </div>
@@ -177,8 +181,7 @@
         </div>
     </section>
     
-    
-    </section>
+ 
 
 
 
@@ -221,7 +224,7 @@
               <span> <img src="/Images/love-icon.svg" alt="love" class="love-icon"> </span> 
             </h3>
             <p class="price">₦15,000</p>
-            <s class="price">#18,000</s>
+            <s class="price2">#18,000</s>
           </div>
         </div>
 
@@ -235,7 +238,7 @@
             <span> <img src="/Images/love-icon.svg" alt="love" class="love-icon"> </span> 
            </h3>
             <p class="price">₦15,000</p>
-            <s class="price">#18,000</s>
+            <s class="price2">#18,000</s>
           </div>
         </div>
 <!-- product three -->
@@ -251,7 +254,7 @@
             
             </div>
             <p class="price">₦15,000</p>
-            <s class="price">#18,000</s>
+            <s class="price2">#18,000</s>
           </div>
         </div>
       </div>
@@ -277,13 +280,13 @@
           <h2>Quick Links</h2>
           <div class="link-1">
             <ul>
-              <li><a href="">Products</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">FAQ</a></li>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
               <li><a href="product.html">Shop</a></li>
-              <li><a href="">Products</a></li>
+              <li><a href="#">Products</a></li>
               <li><a href="signin.html">Your Account</a></li>
-              <li><a href="">Wishlist</a></li>
+              <li><a href="#">Wishlist</a></li>
             </ul>
           </div>
         </div>

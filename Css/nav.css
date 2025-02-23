@@ -1,15 +1,15 @@
 .top-nav {
   background-color: #eebfd1;
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
+  padding: 10px 120px;
 }
 
 .middle-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 35px 10px;
+  padding: 10px 120px;
   width: 100%;
   gap: 20px;
 }
@@ -54,8 +54,8 @@
 }
 .bottom-nav {
   display: flex;
-  justify-content: center;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 20px 110px;
 }
 .bottom-nav p {
   padding: 10px;
@@ -79,13 +79,14 @@
   }
   .top-nav {
     font-size: 10px;
+    padding: 20px 20px;
   }
   .bottom-nav {
     flex-direction: column;
     background-color: white;
     position: absolute;
     left: 0;
-    top: 26%;
+    top: 15%;
     width: 100%;
     height: 100vh;
     display: none;
@@ -97,5 +98,13 @@
 
   .bottom-nav.show {
     display: flex;
+  }
+  .middle-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    gap: 20px;
   }
 }
