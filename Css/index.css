@@ -15,6 +15,7 @@ font-family: "Montserrat", serif; */
     background-color: #872D43;
     font-family: "Lora", serif;
     color: #ffffff;
+    /* padding: 50px 80px;  */
 }
 .spe-offer{
     display: flex;
@@ -86,7 +87,169 @@ border-bottom: 3px solid #F4D6E2 ;
     color: #F4D6E2;
     border: 2px solid #F4D6E2;
 }
+footer{
+    background: #872D43;
+    color: #ffffff;
+    /* padding: 90px 80px; */
+    margin-top: 20px;
+    font-family: "Montserrat", serif;
+}
+.footer-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 90px 80px;
+    
+  
+}
+.footer-inner .first-div {
+    text-align: start;
+}
+.footer-inner .first-div img {
+margin-bottom: 15px;
+}
+.footer-inner .first-div p {
+  font-size: 15px
+    }
+.footer-inner .first-divin{
+    margin-top: 30px;
+}
+.footer-inner .first-divin h2{
+ margin-bottom: 10px;
+ font-size: 20px;
+ font-weight: 700;
+}
+.footer-inner .second-div h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 5px;
+    /* border-radius: 5px; */
+  
+}
+.footer-inner .second-div .link-1 ul{
+    border-top: 4px solid #ffffff;
+    list-style-type: none;
 
+}
+.footer-inner .second-div .link-1 ul li{
+    text-align: start;
+    margin-top: 18px;
+ 
+
+}
+.footer-inner .second-div .link-1 ul li a{
+   font-size: 16px;
+   text-decoration: none;
+   color: #ffffff;
+ 
+
+}
+
+.footer-inner .third-div h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 5px;
+    /* border-radius: 5px; */
+  
+}
+.footer-inner .third-div .link-1 ul{
+    border-top: 4px solid #ffffff;
+    list-style-type: none;
+
+}
+.footer-inner .third-div .link-1 ul li{
+    text-align: start;
+    margin-top: 18px;
+ 
+
+}
+.footer-inner .third-div .link-1 ul li a{
+   font-size: 16px;
+   text-decoration: none;
+   color: #ffffff;
+ 
+
+}
+
+.footer-inner .fourth-div h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 5px;
+    /* border-radius: 5px; */
+  
+}
+.footer-inner .fourth-div .link-1 ul{
+    border-top: 4px solid #ffffff;
+    list-style-type: none;
+
+}
+.footer-inner .fourth-div .link-1 ul li{
+    text-align: start;
+    margin-top: 18px;
+ 
+
+}
+.footer-inner .fourth-div .link-1 ul li a{
+   font-size: 16px;
+   text-decoration: none;
+   color: #ffffff;
+ 
+
+}
+.footer-inner .fourth-div .contactus-link h2{
+
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 5px;
+    margin-top: 16px;
+}
+
+.footer-inner .fourth-div .contactus-link .cover1{
+    border-top: 4px solid #ffffff ;
+    padding-top: 20px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+    flex-direction: row;
+    font-size: 16px;
+    
+}
+.footer-inner .fourth-div .contactus-link .cover2{
+    margin-top: 20px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+footer .copyright-line{
+    border-top: #F4D6E2 1px solid;
+    margin-bottom: 20px;
+   
+}
+footer .copyright{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+footer .copyright p, a{
+    text-decoration: none ;
+    color: #ffffff;
+    font-size: 13px;
+}
 
 .hero {
     background-image: url('/Images/hero.svg');
@@ -96,22 +259,20 @@ border-bottom: 3px solid #F4D6E2 ;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 110px;
+    padding: 0 5%;
 }
+
 .hero-section {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
     width: 100%;
-    gap: 170px;
+    gap: 20px;
 }
 
 /* Text Styling */
 .hero-text {
-<<<<<<< HEAD
     flex: 1;
     max-width: 350px;
     text-align: left;
@@ -128,66 +289,32 @@ border-bottom: 3px solid #F4D6E2 ;
     /* word-wrap: break-word; */
     line-height: 1.2;
     letter-spacing: 1px;
-=======
-    /* flex: 1; */
-    /* max-width: 500px;  */
-    /* text-align: left;
-    margin: 0 auto;  */
-}
-
-.hero-text h1 {
-    font-size: 3.5rem;
-    font-weight: 500;
-    color: #000000;
-    font-family: 'lora', sherif;
-    /* max-width: 400px; */
-    letter-spacing: 0.1px;
-    line-height: 65px;
-    word-spacing: 1px;
-    /* word-wrap: break-word; */
-    margin-bottom: 20px;
->>>>>>> 502a41203801b4839725d8f5d22fd5e798233b89
 }
 
 .hero-text p {
-    font-size: 18px;
-    color: #000000;
+    font-size: 1.2rem;
+    color: #363636;
     margin: 10px 0 20px;
-<<<<<<< HEAD
     font-weight: 600;
     line-height: 1.8;
     letter-spacing: 0.7px;
 
-=======
-    font-family: Montserrat;
-    
->>>>>>> 502a41203801b4839725d8f5d22fd5e798233b89
 }
 
 .bot {
     display: inline-block;
-    background-color: #872D43;
+    background-color: #a83256;
     color: white;
-<<<<<<< HEAD
     padding: 10px 60px;
     border-radius: 25px;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 500;
-=======
-    padding: 15px 60px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 700;
->>>>>>> 502a41203801b4839725d8f5d22fd5e798233b89
     text-transform: capitalize;
 }
 
 .bot:hover {
-    background-color: #F4D6E2;
-    color: #872D43;
-    border: 1px solid #872D43;
+    background-color: #8c2a4b;
 }
 
 /* Image Styling */
@@ -198,7 +325,7 @@ border-bottom: 3px solid #F4D6E2 ;
     max-width: 500px;
 }
 .hero-image img{
-    height: 100dvh;
+    height: 90dvh;
 }
 .subscription {
   /* display: ; */
@@ -206,11 +333,9 @@ border-bottom: 3px solid #F4D6E2 ;
   text-align: center;
   padding: 50px 10%;
   background-color: #f9f9f9; /* Light background */
-  font-family: 'lora', serif;
 }
 
 .subscription h2 {
-<<<<<<< HEAD
   font-size: 2.5rem;
   color: #4d2c3d;
   margin-bottom: 20px;
@@ -220,25 +345,11 @@ border-bottom: 3px solid #F4D6E2 ;
 
 .subscription p {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #0c0205;
   margin-bottom: 20px;
   font-family: 'lora' sans-serif;
   letter-spacing: 0.7px;
-=======
-    font-size: 30px;
-    margin: 10px 10px;
-    font-weight: 700;
-  color: #000000;
-  margin-bottom: 10px;
- 
-}
-
-.subscription p {
-  font-size: 1rem;
-  color: #0c0205;
-  margin-bottom: 40px;
->>>>>>> 502a41203801b4839725d8f5d22fd5e798233b89
 }
 
 .product-container {
@@ -285,21 +396,15 @@ border-bottom: 3px solid #F4D6E2 ;
 
 .price {
   font-size: 1rem;
-  color: #000000;
+  color: #9c9396;
   font-weight: bold;
 }
-.price2 {
-    font-size: 1rem;
-    color: #9c9396;
-    font-weight: bold;
-  }
-  
+
 .product-div{
   display: flex;
-  flex-wrap: nowrap ;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 20px;
+  flex-wrap: wrap ;
+  justify-content: center;
+  gap: 30px;
 }
 
 .products img {
@@ -320,7 +425,6 @@ border-bottom: 3px solid #F4D6E2 ;
 }
 .text h3{
     font-size: 1rem;
-    font-weight: 500;
 
 }
 .name-icon{
@@ -340,217 +444,8 @@ border-bottom: 3px solid #F4D6E2 ;
   border-radius: 12px 0 0;
   text-align: center;
 }
-#featured-products{
-    padding: 50px 70px;
-    font-family: "Lora", serif;
-}
-
-.header-feature {
-    font-size: 40px;
-    margin: 20px 10px;
-    text-align: center;
-    font-family: "Lora", serif;
-    font-weight: 700;
-    
-}
-.product-grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 10px 30px;
-}
-
-.product {
-    background: #fff;
-    padding: 15px;
-    text-align: center;
-    border-radius: 5px;
-    width: auto;
-    
-}
-
-.product img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.product h3{
-    color: #000000;
-}
-.price {
-    font-size: 18px;
-    font-weight: 700;
-    padding: 5px 0;
-    color: #000000;
-
-}
-.product p {
-    padding: 5px 0;
-
-}
-
-.add-to-cart {
-    background: #872D43;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-top: 10px;
-    width: 100%;
-    font-family: "Lora", serif;
-}
-
-.add-to-cart:hover {
-    background: transparent;
-    border: #872D43 1px solid;
-    color: #872D43;
-
-}
 
 
-/* Subscription Section Styles */
-
-.subscription-group {
-    display: flex;
-    justify-content: center;
-    color: #872D43;
-    margin: 30px 30px;
-    gap: 5px;
-}
-.subscription-grade {
-    border-radius: 20px;
-    padding: 10px;
-    background-color: #eebfd1;
-}
-.subscription-grade2 {
-    border-radius: 20px;
-    padding: 10px;
-    background-color: transparent;
-}
-
-.Subscription-grid {
-    padding: 10px 50px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 35px;
-}
-.subscription-packages {
-    text-align: center;
-    padding: 60px 50px;
-    background-color: #f9f9f9;
-    font-family: "Lora", serif;
- 
-    
-}
-
-/* Subscription Title */
-.subscription-packages h2 {
-    font-size: 40px;
-    margin: 20px 10px;
-}
-
-/* Subscription Layout */
-/*.plans {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* Each Plan Styling */
-.plan {
-    background: white;
-    padding: 22px;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    color: #70707B;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.plan:hover{
-    background: #F4D6E2;
-    color: #000000 !important;
-   
-}
-
-/* .plan3 {
-    background: #eebfd1;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
-}
-.plan3 ul {
-    list-style: none;
-    padding: 20px;
-}
-
-.plan3 ul li {
-    font-size: 14px;
-    display: flex;
-    padding: 5px 0;
-    align-items: flex-start;
-} */
-
-/* Plan Titles */
-.plan h3 {
-    font-size: 20px;
-    color: #872D43;
-    margin: 5px 0;
-}
-
-.plan h4 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-/* Plan Description */
-.plan p {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-/* Features List */
-.plan ul {
-    list-style: none;
-    padding: 5px ;
-}
-
-.plan ul li {
-    font-size: 14px;
-    display: flex;
-    padding: 5px 0;
-    align-items: start;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    text-align: start;
-    
-}
-.plan ul li img{
-    margin-right: 10px;
-}
-
-
-
-.subscribe {
-    background-color: #F4D6E2;
-    color: #872D43;
-    border: 1px solid #872D43;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-    width: 100%;
-    border-radius: 20px;
-}
-
-.subscribe:hover {
-    background-color: #872D43;
-    border: 1px solid #4d2c3d;
-    color: #F4D6E2;
-}    
 
 
 /* Hide Image on Small Tablets & Phones (Below 768px) */
@@ -634,76 +529,7 @@ border-bottom: 3px solid #F4D6E2 ;
 
 
 @media (max-width: 768px) {
-    .hero-section{
-        padding: 20px 20px;
-      
-    }
 
-    .hero-image {
-        display: none;
-    }
-
-    .hero-section {
-        justify-content: center;
-    }
-
-    .hero-text {
-        text-align: center;
-        /* max-width: 100%; */
-    }
-
-    .hero-text h1 {
-        font-size: 2rem;
-        letter-spacing: 0.1px;
-        line-height: 40px;
-        word-spacing: 2px;
-    }
-
-    .hero-text p {
-        font-size: 1rem;
-        color: #000000;
-        font-weight: 500;
-    }
-    #featured-products{
-        padding: 20px 20px;
-        font-family: "Lora", serif;
-    }
-    .product-grid {
-        flex-wrap: wrap;
-    }
-    .header-feature {
-        
-        font-size: 25px;
-        font-weight: 800;
-    }
-    .subscription-packages {
-        text-align: center;
-        padding: 10px 20px;
-        justify-content: space-between;
-    }
-    .Subscription-grid {
-        padding: 10px 30px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        gap: 10px;
-    }
-   
-    .subscription-packages h2 {
-        font-size: 25px;
-        margin: 20px 10px;
-    }
-.plan {
-    margin-top: 35px
-}
-
-.product-div{
-  
-    flex-wrap: nowrap ;
-    flex-direction: column;
-    padding: 20px 20px;
-    gap: 20px;
-  }
     .spe-offer{
         display: flex;
         flex-direction: column;
