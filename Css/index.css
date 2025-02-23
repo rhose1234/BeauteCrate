@@ -250,20 +250,10 @@ footer .copyright p, a{
     color: #ffffff;
     font-size: 13px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-=======
-
->>>>>>> 3bb0f5fc1b587948a4227f5e74c34fb1b351d7db
 
 .hero {
     background-image: url('/Images/hero.svg');
-    height: 100dvh;
+    height: 90dvh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -286,16 +276,19 @@ footer .copyright p, a{
     flex: 1;
     max-width: 350px;
     text-align: left;
-    margin: 0 auto;
+    margin: 0 60px;
+    padding: 0px;
 }
 
 .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 45px;
     font-weight: 600;
     color: #252525;
     font-family: 'lora', sherif;
-    /* max-width: 300px; */
-    word-wrap: break-word;
+    /* width: 400px; */
+    /* word-wrap: break-word; */
+    line-height: 1.2;
+    letter-spacing: 1px;
 }
 
 .hero-text p {
@@ -303,16 +296,20 @@ footer .copyright p, a{
     color: #363636;
     margin: 10px 0 20px;
     font-weight: 600;
+    line-height: 1.8;
+    letter-spacing: 0.7px;
+
 }
 
 .bot {
     display: inline-block;
     background-color: #a83256;
     color: white;
-    padding: 10px 44px;
+    padding: 10px 60px;
     border-radius: 25px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
     text-transform: capitalize;
 }
 
@@ -342,13 +339,17 @@ footer .copyright p, a{
   font-size: 2.5rem;
   color: #4d2c3d;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: 'lora' serif;
 }
 
 .subscription p {
   font-size: 1.2rem;
+  font-weight: 500;
   color: #0c0205;
   margin-bottom: 20px;
+  font-family: 'lora' sans-serif;
+  letter-spacing: 0.7px;
 }
 
 .product-container {
@@ -460,6 +461,7 @@ footer .copyright p, a{
     .hero-text {
         text-align: center;
         max-width: 100%;
+        /* padding: 0; */
     }
 
     .hero-text h1 {
@@ -518,16 +520,14 @@ footer .copyright p, a{
     .product-container{
         display: block;
     }
+    .hero-text{
+        padding: 0;
+        text-align: center;
+        max-width: 100%;
+    }
 }
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 636c4ef35a0a3897ac6d34fa89b10c767173a6ed
-=======
-
->>>>>>> 3bb0f5fc1b587948a4227f5e74c34fb1b351d7db
 @media (max-width: 768px) {
 
     .spe-offer{
