@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="Css/selectPayment.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="Css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BeautéCraté</h1>
+    </header>
+    <div class="main">
+    <div class="container">
+      <div class="form-section">
+        <h2>Access more with the right package</h2>
+        <div class="form-group">
+            <label for="zip-code">Billed To*</label>
+            <input type="text" id="zip-code" placeholder="Enter your zip code" required>
+        </div>
+        <div class="form-group">
+            <label>Payment Details</label>
+            <div class="payment-methods">
+                <label>
+                    <input type="button" name="payment-method" value="Credit card" checked> 
+                </label>
+                <label>
+                    <input type="button" name="payment-method" value="Bank Transfer"> 
+                </label>
+            </div>
+        </div> 
+       <div class="btn">
+        <button class="cancel">Cancel</button>
+        <button class="subscribe">Subscribe</button>
+       </div>
+       <p>By providing your card information, you allow us to charge your card for future payment in accordance with our terms</p>
+       
+      </div>
+
+      <div class="plan-section">
+        <div class="plan" onclick="selectPlan(this, 'monthly')">
+            <input type="radio" name="plan" value="monthly" checked> 
+            <div>
+                <h3>Pay Monthly</h3>
+                <p>₦52,500 / Month</p>
+            </div>
+        </div>
+        <div class="plan" onclick="selectPlan(this, 'monthly')">
+            <input type="radio" name="plan" value="monthly" checked> 
+            <div>
+                <h3>Pay Annual</h3>
+                <p>₦600,000 / Year</p>
+            </div>
+        </div>
+       
+     
+        <h3 id="total">Total: ₦52,500 / Month</h3>
+        <p id="total">Guaranteed to be safe & secure, ensuring that all transactions are protected with the highest level of security.
+     
+    </div>
+
+    <script>
+      function selectPlan(element, type) {
+        document
+          .querySelectorAll(".plan")
+          .forEach((plan) => plan.classList.remove("selected"));
+        element.classList.add("selected");
+        document.getElementById("total").innerText =
+          type === "monthly"
+            ? "Total: ₦52,500 / Month"
+            : "Total: ₦600,000 / Year";
+      }
+    </script>
+  </body>
+</html>
