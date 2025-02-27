@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription Page</title>
+    <link rel="shortcut icon" type="Images" href="Images/favicon.svg" />
+    <link rel="stylesheet" href="Css/subscription.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="Css/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="Css/footer.css" />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h1>BeautéCraté</h1>
+      <h2>Subscribe in 4 easy steps</h2>
+      <div class="steps">
+        <span><img src="Images/rename.svg" alt="icon" /> Pick a package</span>
+        <span
+          ><img src="Images/rename.svg" alt="icon" /> Choose Payment
+          Method</span
+        >
+        <span><img src="Images/rename.svg" alt="icon" /> Pay</span>
+        <span><img src="Images/rename.svg" alt="icon" /> Confirm</span>
+      </div>
+      <hr class="line" />
+    </header>
+
+    <div class="toggle-container">
+      <button id="monthly" class="active" onclick="togglePlan('monthly')">
+        Monthly
+      </button>
+      <button id="yearly" onclick="togglePlan('yearly')">Yearly</button>
+    </div>
+
+    <section class="plans">
+      <div class="plan">
+        <h1 class="price">₦15,000<span>/month</span></h1>
+        <h2>Standard</h2>
+        <p>Perfect For: Beginners in skincare or minimalists.</p>
+        <ul>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />2 essential products
+            (e.g., cleanser + moisturizer)
+          </li>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />Free shipping for
+            orders over ₦30,000
+          </li>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />5% discount on add-on
+            purchases
+          </li>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />Free surprise product
+            every 3 months
+          </li>
+        </ul>
+        <button class="subscribe">
+          <a href="selectPayment.html">Subscribe</a>
+        </button>
+      </div>
+
+      <div class="plan">
+        <h2>Premium</h2>
+        <h1 class="price">₦52,000<span>/month</span></h1>
+        <p>Perfect For: Skincare enthusiasts looking for variety</p>
+        <ul>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />4 products of your
+            choice (e.g., cleanser, serum, lotion, mask).
+          </li>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />Free shipping on all
+            orders
+          </li>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />5% discount on add-on
+            purchases 10% discount on additional purchases
+          </li>
+          <li>
+            <img src="Images/Check-Icon.svg" alt="Icon" />Free surprise product
+            every 3 months
+          </li>
+        </ul>
+        <button class="subscribe">
+          <a href="selectPayment.html">Subscribe</a>
+        </button>
+      </div>
+
+      <div class="plan popular">
+        <h2>Custom</h2>
+        <h1 class="price">₦75,500<span>/month</span></h1>
+        <p>Perfect For: Advanced skincare users who want the best experience</p>
+        <ul>
+          <li>
+            <img src="Images/check-icon2.svg" alt="Icon" />6 premium products
+            (full routine: cleanser, toner, serum, moisturizer, mask, SPF).
+          </li>
+          <li>
+            <img src="Images/check-icon2.svg" alt="Icon" />Free shipping on all
+            orders
+          </li>
+          <li>
+            <img src="Images/check-icon2.svg" alt="Icon" />15% discount on
+            additional purchases
+          </li>
+          <li>
+            <img src="Images/check-icon2.svg" alt="Icon" />Exclusive access to
+            limited-edition products
+          </li>
+          <li>
+            <img src="Images/check-icon2.svg" alt="Icon" />Monthly “How-To”
+            beauty tutorials via email
+          </li>
+        </ul>
+        <button class="subscribe">
+          <a href="selectPayment.html">Subscribe</a>
+        </button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-inner">
+        <div class="first-div">
+          <img src="Images/footer-logo.svg" width="80%" alt="" />
+          <p>Transforming Self-Care into <br />Simplicity with BeautéCrate.</p>
+
+          <div class="first-divin">
+            <h2>Download App</h2>
+
+            <div class="div-img">
+              <img src="Images/googleplay.svg" alt="" width="45%" />
+              <img src="Images/appstore.svg" alt="" width="40%" />
+            </div>
+          </div>
+        </div>
+
+        <div class="second-div">
+          <h2>Quick Links</h2>
+          <div class="link-1">
+            <ul>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="product.html">Shop</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="signin.html">Your Account</a></li>
+              <li><a href="#">Wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="third-div">
+          <h2>Categories</h2>
+          <div class="link-1">
+            <ul>
+              <li><a href="">Cleansers</a></li>
+              <li><a href="">Exfoliators</a></li>
+              <li><a href="">Toners</a></li>
+              <li><a href="">Serum</a></li>
+              <li><a href="">Moisturizers</a></li>
+              <li><a href="">Sun Protection</a></li>
+              <li><a href="">Treatment</a></li>
+              <li><a href="">Mask</a></li>
+              <li><a href="">Body Care</a></li>
+              <li><a href="">Tools & Accessories</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="fourth-div">
+          <h2>Connect With Us</h2>
+          <div class="link-1">
+            <ul>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Tiktok</a></li>
+              <li><a href="">Youtube</a></li>
+              <li><a href="">X</a></li>
+            </ul>
+          </div>
+
+          <div class="contactus-link">
+            <h2>Contact Us</h2>
+            <div class="cover1">
+              <a href="#"
+                ><img src="Images/whatsappicon.svg" alt="Whatsapp"
+              /></a>
+
+              <div class="whatsapp-contact">
+                <p>Whats App</p>
+                <p>+1 202-918-2132</p>
+              </div>
+            </div>
+
+            <div class="cover2">
+              <a href="#"><img src="Images/callicon.svg" alt="Whatsapp" /></a>
+
+              <div class="whatsapp-contact">
+                <p>Call Us</p>
+                <p>+1 202-918-2132</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-line"></div>
+
+      <div class="copyright">
+        <p>
+          &copy; 2025 BeautéCrate. All rights reserved ·
+          <a href="privacy-policy.html">Privacy Policy</a> ·
+          <a href="terms-of-use.html">Terms of Use</a> ·
+          <a href="cookies-preference.html">Cookies Preference</a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      function togglePlan(plan) {
+        const monthlyBtn = document.getElementById("monthly");
+        const yearlyBtn = document.getElementById("yearly");
+
+        if (plan === "monthly") {
+          monthlyBtn.classList.add("active");
+          yearlyBtn.classList.remove("active");
+        } else {
+          yearlyBtn.classList.add("active");
+          monthlyBtn.classList.remove("active");
+        }
+      }
+    </script>
+  </body>
+</html>
