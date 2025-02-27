@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="/Css/productDetails.css">
+    <link rel="stylesheet" href="/Css/product.css">
+    <link rel="stylesheet" href="/Css/nav.css">
+    <link rel="stylesheet" href="/Css/footer.css">
+</head>
+<body>
+
+    <section>
+     <nav>
+      <div class="top-nav">
+        <p>Welcome to BeautéCrate</p>
+        <p>Over 20% off all products for new subscribers</p>
+      </div>
+      <div class="middle-nav">
+        <img
+          src="Images/menu-01.svg"
+          alt="Hambuger"
+          class="hambuger"
+          id="menu-toggle"
+        />
+       <a href="#"> <img src="Images/BeautéCrate.svg" alt="BeautéCrate Logo" /></a>
+        <div class="nav-icon">
+          <div>
+            <input type="search" id="searchInput" placeholder="Search products..." class="search-input" />
+            <div id="searchResults"></div>            
+        </div>
+          <div class="links">
+            <a href="signin.html">SignIn</a>
+            <div class="line"></div>
+            <a href="signup.html">SignUp</a>
+          </div>
+
+          <div class="icons">
+            <!-- <a href=""><img src="Images/Search.svg" alt="search" /></a> -->
+            <a href="signin.html"><img src="Images//profile-icon.svg" alt="profile" /></a>
+            <a href=""><img src="Images/love-icon.svg" alt="love" /></a>
+           <a href="cart.html"> <img src="Images/cart-icon.svg" alt="cart" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-link"></div>
+      <div class="bottom-nav" id="mobile-menu">
+        <p>Cleansers</p>
+        <p>Exfoliators</p>
+        <p>Cleansers</p>
+        <p>Toners</p>
+        <p>Serums</p>
+        <p>Moisturizers</p>
+        <p>Sun Protection</p>
+        <p>Treatments</p>
+        <p>Masks</p>
+        <p>Body Care</p>
+        <p>Tools & Accessories</p>
+      </div>
+    </nav>
+    </section>
+ 
+    <section>
+        <div class="productt-container">
+        <div class="productt-image">
+            <img src="/images/hydroboost.svg" alt="Neutrogena Hydroboost">
+        </div>
+        <div class="productt-details">
+            <p class="rating"><img src="/images/Star.svg" alt="hydro"> 4.7 Star Rating <span class="top-feedback"> (21,571 User Feedback)</span></p>
+
+            <h2>Neutrogena Hydroboost with Hyaluronic Acid Hydrating Gel Cleanser</h2>
+            <p class="price">₦12,000</p>
+            
+            <div class="types" >
+            <p>Quantity:<span class="availability">230ml</span> </p>
+            <p>Availability:<span class="availability" style="color: green;">In Stock</span> </p>
+            </div>
+            <div class="types">
+            <p>Brand:<span class="availability">Nuetrogena</span> </p>
+            <p>Categorie:<span class="availability">Cleanser</span> </p>
+            </div>
+            <div class="types">
+           <p>SKU:<span class="availability">12589
+            -45
+           </span> </p>
+            <p>Product ty;pe:<span class="availability">Gel cleanser</span> </p>
+            </div>
+            
+            <h4>Description</h4>
+            <p class="description">
+                Experience a deep yet gentle cleanse with Neutrogena Hydrating Gel Cleanser, specially formulated to remove dirt, oil, and makeup without stripping your skin. Infused with aloe vera and hyaluronic acid, this lightweight gel cleanser hydrates and soothes, leaving your skin feeling fresh, balanced, and radiant. Perfect for oily, combination, and sensitive skin.
+            </p>
+            <p>✔ Non-drying formula</p>
+            <p>✔ pH-balanced & fragrance-free</p>
+            <p>✔ Suitable for daily use</p>
+
+            <div class="buttons">
+              <div class="quantity-container">
+               <button style="border: none; background-color: rgb(231, 236, 236);" onclick="decreaseQuantity()">-</button>
+              <span id="quantity">1</span>
+              <button style="border: none; background-color: rgb(231, 236, 236);" onclick="increaseQuantity()">+</button>
+            </div>
+            
+            <div>
+              <a href="/cart.html" ><button class="add-to-cartt">Add to Cart</button></a>
+              <a href=""><button class="add-to-cartt">Buy Now</button></a>
+            </div>   
+            </div>
+
+            <div style="display: flex; margin-top: 10px;">
+              <p style="margin: 10px;">Add to wish list</p>
+              <p style="margin: 10px;">Add to compare</p>
+              <p style="margin: 10px;">Share products <img src="/Images/Social Icon.svg" alt=""></p>
+            </div>
+
+             <img src="/Images/payment method.svg" alt="payment" style="max-width: 300px;">
+
+        </div>
+
+        
+    </div>
+
+    </section>
+
+    <section class="rel-prod">
+      <h2>Related Products</h2>
+       <div class="box-container">
+            <div class="box">
+              <div class="favorite">
+                <img src="Images/Frame 54.svg" alt="image" width="33px" height="33px">
+            </div>
+
+                <div class="img">
+                <img src="Images/image 3.svg" alt="image" width="200px" height="200px" >
+               </div>
+                <p class="name">Blue Hand Cream</p>
+                <p class="size">50ml</p>
+                <h4>₦3,500</h4>
+                <a href="#" class="cart"><button>Add to Cart</button></a>
+            </div>
+
+            <div class="box">
+                <div class="favorite">
+                    <img src="Images/Frame 54.svg" alt="image" width="33px" height="33px">
+                </div>
+
+                <div class="img">
+                <img src="Images/unsplash_LWIQp-0_b98 (8).svg" alt="image" width="200px" height="200px" >
+               </div>
+                <p class="name">Nécessaire Body Lotion</p>
+                <p class="size">50ml</p>
+                <h4>₦2,500</h4>
+                <a href="#" class="cart"><button>Add to Cart</button></a>
+            </div>
+
+            <div class="box">
+                <div class="favorite">
+                    <img src="Images/Frame 54.svg" alt="image" width="33px" height="33px">
+                </div>
+
+                <div class="img">
+                <img src="Images/unsplash_LWIQp-0_b98 (9).svg" alt="image" width="200px" height="200px" >
+               </div>
+                <p class="name">Sunset Moisturizer</p>
+                <p class="size">50ml</p>
+                <h4>₦2,500</h4>
+                <a href="#" class="cart"><button>Add to Cart</button></a>
+            </div>
+
+            <div class="box">
+                <div class="favorite">
+                    <img src="Images/Frame 54.svg" alt="image" width="33px" height="33px">
+                </div>
+
+                <div class="img">
+                <img src="Images/unsplash_LWIQp-0_b98 (5).svg" alt="image" width="200px" height="200px" >
+               </div>
+                <p class="name">Hyaluronic Acid Toner Plus</p>
+                <p class="size">50ml</p>
+                <h4>₦5,500</h4>
+                <a href="#" class="cart"><button>Add to Cart</button></a>
+            </div>
+
+        </div>
+    </section>
+
+       <footer>
+      <div class="footer-inner">
+        <div class="first-div">
+          <img src="Images/footer-logo.svg" width="80%" alt="" />
+          <p>Transforming Self-Care into <br />Simplicity with BeautéCrate.</p>
+
+          <div class="first-divin">
+            <h2>Download App</h2>
+
+            <div class="div-img">
+              <img src="Images/googleplay.svg" alt="" width="45%" />
+              <img src="Images/appstore.svg" alt="" width="40%" />
+            </div>
+          </div>
+        </div>
+
+        <div class="second-div">
+          <h2>Quick Links</h2>
+          <div class="link-1">
+            <ul>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="product.html">Shop</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="signin.html">Your Account</a></li>
+              <li><a href="#">Wishlist</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="third-div">
+          <h2>Categories</h2>
+          <div class="link-1">
+            <ul>
+              <li><a href="">Cleansers</a></li>
+              <li><a href="">Exfoliators</a></li>
+              <li><a href="">Toners</a></li>
+              <li><a href="">Serum</a></li>
+              <li><a href="">Moisturizers</a></li>
+              <li><a href="">Sun Protection</a></li>
+              <li><a href="">Treatment</a></li>
+              <li><a href="">Mask</a></li>
+              <li><a href="">Body Care</a></li>
+              <li><a href="">Tools & Accessories</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="fourth-div">
+          <h2>Connect With Us</h2>
+          <div class="link-1">
+            <ul>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Tiktok</a></li>
+              <li><a href="">Youtube</a></li>
+              <li><a href="">X</a></li>
+            </ul>
+          </div>
+
+          <div class="contactus-link">
+            <h2>Contact Us</h2>
+            <div class="cover1">
+              <a href="#"
+                ><img src="Images/whatsappicon.svg" alt="Whatsapp"
+              /></a>
+
+              <div class="whatsapp-contact">
+                <p>Whats App</p>
+                <p>+1 202-918-2132</p>
+              </div>
+            </div>
+
+            <div class="cover2">
+              <a href="#"><img src="Images/callicon.svg" alt="Whatsapp" /></a>
+
+              <div class="whatsapp-contact">
+                <p>Call Us</p>
+                <p>+1 202-918-2132</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-line"></div>
+
+      <div class="copyright">
+        <p>
+          &copy; 2025 BeautéCrate. All rights reserved ·
+          <a href="privacy-policy.html">Privacy Policy</a> ·
+          <a href="terms-of-use.html">Terms of Use</a> ·
+          <a href="cookies-preference.html">Cookies Preference</a>
+        </p>
+      </div>
+    </footer>
+    
+    <script>
+    let quantity = 1; 
+
+    function increaseQuantity() {
+        quantity++;
+        document.getElementById("quantity").innerText = quantity;
+    }
+
+    function decreaseQuantity() {
+        if (quantity > 1) {
+            quantity--;
+            document.getElementById("quantity").innerText = quantity;
+        }
+    }
+</script>
+</body>
+</html>

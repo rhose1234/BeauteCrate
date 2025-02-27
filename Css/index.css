@@ -106,7 +106,7 @@ border-bottom: 3px solid #F4D6E2 ;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
-    width: 100%;
+    /* width: 100%; */
     gap: 170px;
 }
 
