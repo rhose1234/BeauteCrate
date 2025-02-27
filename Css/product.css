@@ -325,24 +325,20 @@ h4{
     }
   }
 
-*{
-    padding: 0;
-    margin: 0;
-}
 
 .productt-container{
     display: flex ;
-    max-width: 500px;
+    max-width: 900px;
     padding: 20px;
     justify-content: center;
     margin: 0px auto;
-    gap: 80px;
+    gap: 50px;
   }
   .top-feedback{
     font-size: 10px;
 }
 .productt-details {
-    max-width: 11900px;
+    max-width: 900px;
 }
 .productt-image{
   margin-top: 0;
@@ -387,21 +383,22 @@ h4{
 .buttons {
     margin-top: 35px;
     display: flex;
-    gap: 18px;
+    gap: 10px;
     align-items: center;
 }
 
-
+.rel-prod h2{
+  text-align: center;
+}
 .add-to-cartt{
   border-color: rgb(128, 1, 37);
   cursor: pointer;
-  padding: 4 5px;
+  padding: 4px 20px;
   border-radius: 8px;
-  margin-top: 5px;
+  margin-top: 16px;
   color: rgb(128, 1, 37);
   background-color: white;
   font-size: px;
-  flex-wrap: wrap;
   }
 
 
@@ -415,7 +412,7 @@ h4{
   background-color: rgb(231, 236, 236);
   border: #af163c ;
   display: flex;
-  padding: 0px 10px;
+  padding: 0px 20px;
   border-radius: 8px;
   border-color: #af163c;
   width: 200px;
@@ -427,7 +424,10 @@ h4{
 
 @media (max-width:768px){
   .productt-container{
-    max-width: 100px;
+    max-width: 500px;
+  }
+  .productt-image{
+    max-width: 200px;
   }
   .productt-image img{
   padding: 40px;
@@ -438,10 +438,15 @@ h4{
 .productt-details{
   max-width: 400px;
 }
+.quantity-container{
+  max-width: 60px;
+  gap: 10px;
+}
 }
 @media (max-width:320px){
   .productt-container{
     max-width: 100px;
+    gap: 5px;
   }
   .productt-image img{
   padding: 40px;
@@ -450,7 +455,11 @@ h4{
   border-radius: 8px;
 }
 .productt-details{
-  max-width: 50px;
+  display: block;
+}
+.quantity-container{
+  display: block;
+  align-items: center;
 }
 .quantity-container{
   background-color: rgb(231, 236, 236);
