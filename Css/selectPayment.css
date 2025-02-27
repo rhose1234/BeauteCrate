@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
+  background: #fff;
+}
+header {
+  text-align: center;
+  padding: 10px 100px 0px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+header h1 {
+  color: #872d43;
+  display: flex;
+  justify-content: space-around;
+}
+h2 {
+  color: #000;
+  text-align: left;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #344054;
+}
+
+input[type="text"],
+.payment-methods,
+.plan-options {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+.form-section,
+.plan-section {
+  flex: 1;
+  padding: 20px;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+.payment-methods {
+  display: flex;
+  gap: 10px;
+  border: none;
+}
+.payment-methods input {
+  background-color: white;
+  height: 70px;
+  width: 240px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+button.subscribe {
+  background: #872d43;
+  color: white;
+  border: none;
+}
+
+button.cancel {
+  background: #ccc;
+}
+
+.plan {
+  background: #f3e5f5;
+  /* padding: 15px; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.plan input {
+  width: fit-content;
+  background: #872d43;
+  color: white;
+  padding: 10px;
+}
+
+.plan.selected {
+  background: #872d43;
+  color: white;
+}
+.plan-section {
+  background-image: url("../Images/bgImg.svg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+input[type="radio"] {
+  accent-color: #872d43;
+  padding: 10px;
+}
+h3 #total {
+  display: flex;
+  justify-content: space-between;
+}
+#total {
+  color: white;
+}
