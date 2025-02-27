@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (email) {
         userEmailSpan.textContent = email;
     } else {
-        userEmailSpan.textContent = "User"; // Fallback text
+    userEmailSpan.textContent = "User"; // Fallback text
     }
   // Password toggle functionality
   const togglePassword = document.getElementById("togglePassword");
