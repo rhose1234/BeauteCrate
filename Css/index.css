@@ -339,24 +339,25 @@ border-bottom: 3px solid #F4D6E2 ;
 
 }
 
-.add-to-cart {
+a.add-to-cart {
     background: #872D43;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 20px;
+    width: 500px;
+    
     font-family: "Lora", serif;
 }
 
-.add-to-cart:hover {
+/* .add-to-cart:hover {
     background: transparent;
     border: #872D43 1px solid;
     color: #872D43;
 
-}
+} */
 
 
 /* Subscription Section Styles */
