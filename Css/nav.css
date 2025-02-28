@@ -57,8 +57,11 @@
   justify-content: space-between;
   padding: 20px 110px;
 }
-.bottom-nav p {
+.bottom-nav a {
   padding: 10px;
+  color: #000;
+  font-weight: 500;
+  font-size: 13px;
 }
 .hambuger {
   display: none;

@@ -480,10 +480,15 @@ border-bottom: 3px solid #F4D6E2 ;
 .plan ul li img{
     margin-right: 10px;
 }
+/* .plan button a{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+} */
 
 
 
-.subscribe {
+ .subscribe  {
     background-color: #F4D6E2;
     color: #872D43;
     border: 1px solid #872D43;
@@ -495,6 +500,7 @@ border-bottom: 3px solid #F4D6E2 ;
     width: 100%;
     border-radius: 20px;
 }
+
 
 .subscribe:hover {
     background-color: #872D43;
